@@ -1,4 +1,4 @@
-# MING 2027 — Hybrid Conference Website (v2)
+# MING 2027 — Official Conference Website (v4)
 
 Static GitHub Pages site. Homepage sections plus dedicated **cfp.html** and **committees.html**.
 
