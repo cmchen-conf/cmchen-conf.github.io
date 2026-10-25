@@ -17,3 +17,10 @@ V10 chair photo status:
 
 
 V11: Five confirmed chair photos are stored locally in assets/chairs/. Lip Yee Por portrait currently loads from the university-hosted URL; if unavailable, initials appear. No fabricated portraits.
+
+
+V12 updates (2026-10-25):
+- Replaced Lip Yee Por's external portrait URL with the supplied local photo at assets/chairs/lip-yee-por.jpg. All six chair portraits are now bundled locally.
+- Added 10 confirmed TPC members to committees.html in a responsive two-column text-only list (no photos).
+- Preserved all other page content and the V11 home page appearance.
+- Affiliation text is reproduced as provided by the conference organizer; verify institutional country labels before publication if needed.
