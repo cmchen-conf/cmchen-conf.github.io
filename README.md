@@ -1,12 +1,5 @@
-# MING 2027 — Official Conference Website (V6)
+# MING 2027 — Conference Website (V7)
 
-Conference website for MING 2027.
+V7 corrects the homepage hero layout: the AI image is constrained to the right column beside the conference information, with responsive stacking on mobile. Includes a cache-busting CSS reference.
 
-## V6 updates
-- Enlarged navigation and improved hero typography.
-- Replaced concentric circles with original vector artwork depicting AI neural networks and computing hardware.
-- Added subtle stylized Nanjing skyline to the lower hero background.
-- Preserved dates, location, CFP tracks, and other pages from V5.
-
-## Deployment
-Upload all files **including the `assets/` folder** to the repository root and commit. GitHub Pages deploys automatically from `main` / root.
+Upload all files and the assets folder to the repository root.
