@@ -1,8 +1,10 @@
-# MING 2027 — Conference Website V8
+MING 2027 — V9
 
-- Confirmed committee chairs added to `committees.html` (six scholars).
-- Hero chip graphic removed; Nanjing skyline photograph used as full-width hero background.
-- The background photo is loaded from Wikimedia Commons, so it requires an internet connection and may be unavailable on some networks.
-- Photo: **HanjoH**, *Nanjing Skyline 2010*, Wikimedia Commons, **CC BY 3.0**. Original: https://commons.wikimedia.org/wiki/File:Nanjing_Skyline_2010.jpg . Photo modified through CSS color overlays/cropping.
-- No headshots included until supplied/approved.
-- Upload all files and directories to repository root, replacing matching names.
+Changes:
+- Hero background changed to a brighter Xuanwu Lake skyline panorama (Ecelan, Wikimedia Commons, CC BY-SA 4.0).
+- Chair portraits added for Hsin-Hung Cho and Sunil Prajapat from photos provided by the conference organizer.
+- Four remaining chair portraits are intentionally kept as initials until verified photographs are available.
+
+IMPORTANT: The panorama is loaded remotely from Wikimedia Commons (Special:FilePath); it is NOT included in this ZIP. If Commons is blocked, the fallback background color will appear. For guaranteed performance, download an appropriately licensed copy, save to assets/xuanwu-lake.jpg, and update style.css to reference the local file.
+
+Photo credit: Ecelan, Nanjing - Skyline from Xuanwu Lake.jpg, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Nanjing_-_Skyline_from_Xuanwu_Lake.jpg
