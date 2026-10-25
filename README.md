@@ -1,17 +1,12 @@
-# MING 2027 — Official Conference Website (v4)
+# MING 2027 — Official Conference Website (V6)
 
-Static GitHub Pages site. Homepage sections plus dedicated **cfp.html** and **committees.html**.
+Conference website for MING 2027.
 
-## Preview
-Open `index.html` locally. Navigate to the CFP and Committees pages from the header or homepage.
+## V6 updates
+- Enlarged navigation and improved hero typography.
+- Replaced concentric circles with original vector artwork depicting AI neural networks and computing hardware.
+- Added subtle stylized Nanjing skyline to the lower hero background.
+- Preserved dates, location, CFP tracks, and other pages from V5.
 
-## Publish
-Create a public GitHub repository, upload the files to the repository root, then enable **Settings → Pages → Deploy from a branch → main / root**.
-
-## Editing
-- `index.html`: homepage, dates, venue, submission, publication and registration.
-- `cfp.html`: complete research tracks and future CFP instructions.
-- `committees.html`: chairs and the full TPC list.
-- `style.css`: shared styles; `script.js`: mobile navigation.
-
-Dates and venue remain TBA. Springer is only a prospective publisher; do not claim a confirmed publication agreement or indexing.
+## Deployment
+Upload all files **including the `assets/` folder** to the repository root and commit. GitHub Pages deploys automatically from `main` / root.

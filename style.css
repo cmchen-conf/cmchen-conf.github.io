@@ -14,3 +14,26 @@
 #about h2{font-size:clamp(32px,3.5vw,48px);line-height:1.2}
 @media(max-width:780px){.hero .conference-title{font-size:clamp(66px,15vw,110px);letter-spacing:-4px}.hero .conference-name{font-size:clamp(20px,4.5vw,27px)}#about .split{grid-template-columns:1fr;gap:20px}}
 @media(max-width:500px){.hero .conference-title{font-size:clamp(60px,16vw,85px);letter-spacing:-3px}.hero .conference-name{font-size:20px}.hero-inner{padding-top:80px}.orb{opacity:.12}}
+
+/* V6 — balanced conference hero, AI computing artwork and subtle Nanjing skyline */
+.nav{height:84px;padding-left:max(4%,calc((100vw - 1390px)/2));padding-right:max(4%,calc((100vw - 1390px)/2));gap:35px}
+.nav nav{gap:clamp(12px,1.25vw,23px);align-items:center}
+.nav nav a{font-size:15px;font-weight:500;white-space:nowrap}
+.nav .brand{font-size:25px}
+.hero{min-height:720px;isolation:isolate;background:radial-gradient(ellipse at 78% 45%,#143e61 0%,transparent 50%),linear-gradient(110deg,#071426 0%,#0b2340 65%,#09213b 100%)}
+.hero-inner{max-width:1390px;padding:93px 4% 130px;margin:0 auto;position:relative;z-index:3}
+.hero .eyebrow{font-size:15px;letter-spacing:2.1px}
+.hero .conference-title{font-size:clamp(80px,8.1vw,122px);letter-spacing:-5px;margin:30px 0 28px}
+.hero .conference-name{font-size:clamp(25px,2.05vw,32px);line-height:1.43;max-width:670px}
+.hero .hero-meta{font-size:19px;margin-top:37px;gap:32px;font-weight:500}
+.hero .hero-actions{margin-top:34px}
+.hero .btn{font-size:15px}
+.hero-art{position:absolute;z-index:1;right:max(1%,calc((100vw - 1520px)/2));top:55px;width:min(48vw,690px);height:auto;filter:drop-shadow(0 10px 40px #20b6d31a)}
+.hero-art img{width:100%;display:block}
+.nanjing-skyline{position:absolute;z-index:0;bottom:0;left:0;width:100%;height:210px;background:url('assets/nanjing-skyline.svg') center bottom / cover no-repeat;opacity:.55;pointer-events:none}
+.hero:after{content:'';position:absolute;z-index:1;inset:auto 0 0;height:240px;background:linear-gradient(0deg,#071426 0%,transparent 100%);pointer-events:none;opacity:.3}
+.hero .glow{pointer-events:none}
+@media(max-width:1250px){.nav nav{gap:11px}.nav nav a{font-size:13px}.hero-art{right:-5%;width:50vw;opacity:.8}.hero .conference-name{max-width:580px}}
+@media(max-width:1000px){.nav nav a{font-size:12px}.nav{gap:15px}.hero-art{opacity:.35;right:-12%;top:125px;width:65vw}.hero-inner{padding-left:6%;padding-right:6%}}
+@media(max-width:780px){.nav{height:68px}.nav nav a{font-size:15px}.hero{min-height:680px}.hero-inner{padding:83px 6% 120px}.hero .conference-title{font-size:clamp(62px,13vw,95px);letter-spacing:-3px}.hero .conference-name{font-size:clamp(22px,4vw,29px)}.hero .hero-meta{font-size:17px}.hero-art{right:-27%;top:210px;width:90vw;opacity:.18}.nanjing-skyline{height:160px;opacity:.35}}
+@media(max-width:500px){.hero .eyebrow{font-size:12px}.hero .conference-title{font-size:clamp(58px,14vw,78px)}.hero .conference-name{font-size:21px}.hero .hero-meta{font-size:16px}.hero .btn{font-size:14px}.hero-art{top:240px;opacity:.13}}
