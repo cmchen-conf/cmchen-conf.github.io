@@ -8,3 +8,12 @@ Changes:
 IMPORTANT: The panorama is loaded remotely from Wikimedia Commons (Special:FilePath); it is NOT included in this ZIP. If Commons is blocked, the fallback background color will appear. For guaranteed performance, download an appropriately licensed copy, save to assets/xuanwu-lake.jpg, and update style.css to reference the local file.
 
 Photo credit: Ecelan, Nanjing - Skyline from Xuanwu Lake.jpg, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Nanjing_-_Skyline_from_Xuanwu_Lake.jpg
+
+
+V10 chair photo status:
+- Local portraits: Hsin-Hung Cho, Sunil Prajapat (provided by conference organizer).
+- Verified direct university portrait URL: Lip Yee Por (https://csnet.um.edu.my/images/member/porlip.jpg); externally loaded.
+- Chien-Ming Chen, Saru Kumari, Tsu-Yang Wu: official pages located, but original image URLs/files could not be retrieved in this environment; initials remain rather than risking wrong/broken portraits.
+
+
+V11: Five confirmed chair photos are stored locally in assets/chairs/. Lip Yee Por portrait currently loads from the university-hosted URL; if unavailable, initials appear. No fabricated portraits.
