@@ -22,3 +22,23 @@
 @media(max-width:1100px){.nav nav{gap:10px}.nav nav a{font-size:12px}.hero-layout{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:12px}.hero .conference-title{font-size:clamp(65px,7.4vw,90px)}.hero .conference-name{font-size:clamp(21px,2.3vw,27px)}}
 @media(max-width:780px){.nav{height:68px;padding:0 5%}.nav nav{display:none;position:absolute;top:68px;left:0;right:0;background:#08172b;padding:20px 6%;flex-direction:column;gap:0}.nav nav.open{display:flex}.nav nav a{font-size:15px;padding:12px 0}.hero{min-height:0}.hero-layout{display:flex;flex-direction:column;align-items:stretch;min-height:0;gap:15px;padding:75px 6% 80px}.hero .conference-title{font-size:clamp(60px,12vw,90px);white-space:normal;letter-spacing:-3px}.hero .conference-name{font-size:clamp(21px,4vw,27px)}.hero .hero-meta{font-size:16px}.hero-art{max-width:420px;align-self:center;opacity:.8}.hero-art img{max-height:330px}.nanjing-skyline{height:130px;opacity:.22}}
 @media(max-width:500px){.hero .conference-title{font-size:clamp(55px,14vw,74px)}.hero .conference-name{font-size:20px}.hero .hero-meta{font-size:15px}.hero .btn{font-size:14px}.hero-art{max-width:330px}.hero-art img{max-height:260px}}
+
+/* V8: Nanjing panorama as sole hero artwork; no oversized chip illustration.
+   Photograph: HanjoH, Wikimedia Commons, CC BY 3.0; modified with dark overlay. */
+.hero{background-color:#07182b;background-image:linear-gradient(90deg,rgba(4,17,35,.97) 0%,rgba(5,21,41,.91) 36%,rgba(5,24,47,.57) 68%,rgba(6,25,49,.35) 100%),linear-gradient(0deg,rgba(5,19,38,.52),rgba(5,19,38,.08)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Nanjing_Skyline_2010.jpg');background-size:cover;background-position:center 48%;}
+.hero-layout{grid-template-columns:minmax(0,1fr);max-width:1390px;align-items:center;}
+.hero-inner{max-width:790px;}
+.hero .conference-name{max-width:700px;}
+.hero .glow,.hero .nanjing-skyline,.hero .hero-art{display:none!important;}
+.hero:after{height:130px;opacity:.65;}
+.chair-group{margin-top:40px;}
+.chair-group h2{font-size:clamp(23px,2.3vw,32px);margin:0 0 17px;letter-spacing:-.8px;}
+.chair-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;}
+.chair-card{display:flex;gap:18px;align-items:center;padding:24px;border:1px solid #dce6ee;background:#f8fbfe;border-radius:10px;min-width:0;}
+.chair-avatar{flex:0 0 72px;width:72px;height:72px;border-radius:50%;display:grid;place-items:center;background:#e2f8f5;border:2px solid #46cfc5;color:#136e7b;font-family:'Space Grotesk',sans-serif;font-size:23px;font-weight:700;}
+.chair-detail{min-width:0}.chair-detail h3{font-size:19px;margin:0 0 8px;color:#10243a}.chair-detail p{font-size:14px;line-height:1.55;color:#50657b;margin:0 0 6px}.chair-detail span{font-size:12px;font-weight:700;color:#168f94;}
+@media(max-width:1000px){.chair-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:780px){.hero{background-position:62% center}.hero-layout{display:flex;min-height:610px}.hero-inner{max-width:100%}.chair-cards{grid-template-columns:1fr}}
+@media(max-width:500px){.hero{background-position:62% center}.chair-card{padding:18px}.chair-avatar{flex-basis:58px;width:58px;height:58px;font-size:19px}}
+
+.photo-credit{font-size:10px;max-width:220px;line-height:1.5}.photo-credit a{text-decoration:underline;text-underline-offset:2px}
