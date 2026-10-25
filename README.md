@@ -24,3 +24,7 @@ V12 updates (2026-10-25):
 - Added 10 confirmed TPC members to committees.html in a responsive two-column text-only list (no photos).
 - Preserved all other page content and the V11 home page appearance.
 - Affiliation text is reproduced as provided by the conference organizer; verify institutional country labels before publication if needed.
+
+
+## V13 TPC updates
+Removed Muhammad Khalid; corrected Chin Soon Ku affiliation country to Malaysia; added Lingping Kong, Tung-Tso Tsai, Hu Xiong, and Kuo-Hui Yeh. Total TPC members: 13.
