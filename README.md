@@ -28,3 +28,9 @@ V12 updates (2026-10-25):
 
 ## V13 TPC updates
 Removed Muhammad Khalid; corrected Chin Soon Ku affiliation country to Malaysia; added Lingping Kong, Tung-Tso Tsai, Hu Xiong, and Kuo-Hui Yeh. Total TPC members: 13.
+
+
+V14 updates: submission deadline February 1, 2027; revised paper deadline April 1, 2027; acceptance May 31, 2027; adds Rajkumar Singh Rathore as Conference Co-Chair with local photo; adds nine TPC members. All remaining dates unchanged.
+
+
+V15: Corrected Daizong Liu country to China; Trong-The Nguyen affiliation; Liverpool John Moores University spelling; Slovenia country spelling.
