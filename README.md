@@ -34,3 +34,14 @@ V14 updates: submission deadline February 1, 2027; revised paper deadline April 
 
 
 V15: Corrected Daizong Liu country to China; Trong-The Nguyen affiliation; Liverpool John Moores University spelling; Slovenia country spelling.
+
+
+V16 update: Added submission.html (Author Guidelines, Submission Guidelines, official Microsoft CMT acknowledgment verbatim as static HTML), updated Submission navigation and CFP, confirmed Feb 1 / Apr 1 / May 31 deadlines. The CMT submission link must be added after approval. Verify the site is publicly live before applying.
+
+
+## V17 CMT verification
+- Official acknowledgment appears verbatim as static HTML on both index.html and submission.html.
+- Submission page explains where to submit (CMT portal forthcoming), how to submit, CMT account creation, author guidelines, and manuscript guidelines.
+- First submission deadline: February 1, 2027; revised submission: April 1, 2027.
+- Intended proceedings: Springer SIST, explicitly subject to publisher approval.
+- After uploading, check page source for acknowledgment, and use the live homepage URL in the CMT request.
