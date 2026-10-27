@@ -45,3 +45,5 @@ V16 update: Added submission.html (Author Guidelines, Submission Guidelines, off
 - First submission deadline: February 1, 2027; revised submission: April 1, 2027.
 - Intended proceedings: Springer SIST, explicitly subject to publisher approval.
 - After uploading, check page source for acknowledgment, and use the live homepage URL in the CMT request.
+
+V18: CMT site approved. Official submission portal: https://cmt3.research.microsoft.com/MING2027. Homepage and Submission page updated; opening status is not asserted.
