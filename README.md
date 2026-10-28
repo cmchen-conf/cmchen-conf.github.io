@@ -49,3 +49,5 @@ V16 update: Added submission.html (Author Guidelines, Submission Guidelines, off
 V18: CMT site approved. Official submission portal: https://cmt3.research.microsoft.com/MING2027. Homepage and Submission page updated; opening status is not asserted.
 
 V19: Added Honorary Chairs Valentina E. Balas and Pascal Lorenz, with locally hosted portraits.
+
+V20: Added five TPC members.
