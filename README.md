@@ -54,3 +54,5 @@ V20: Added five TPC members.
 
 
 V21: Added Hemant Ghayvat (Conference Chair), Sara Rouhani (Program Chair), Amrit Mukherjee and Muhammad Adil (Publicity Chairs), with local portraits. Sorted 27 TPC members alphabetically by surname.
+
+V22: Added Lakhmi C. Jain (Honorary Chair) and Lin Xu (Publication Chair) with photos; revised tentative Springer SIST publication information and official resources; added Dr. Chen contact email.
